@@ -1,0 +1,268 @@
+body{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    margin: auto;
+}
+
+section{
+    display: block;
+}
+
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+.orange{
+    color:orange;
+}
+
+
+
+header{
+    height: 100px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.nav{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}
+
+nav{
+    float: left;
+    margin-top: 50px;
+
+}
+
+header h1{
+    float: left;
+}
+
+header ul{
+    float: right;
+    list-style: none;
+}
+
+header li{
+    float: left;
+}
+
+header a{
+    text-decoration: none;
+    color: #444;
+    margin-right: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#main{
+
+    height: 585px;
+    background: url('images/main.jpg') center;
+    text-align: center;
+}
+
+#main h2{
+    text-transform: uppercase;
+    padding: 150px 0 25px 0;
+    font-size: 55px;
+    font-weight: normal;
+    color: #444;
+}
+#main button{
+    background-color: rgb(255, 115, 0);
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+/*Step*/
+#steps .colums{
+
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+
+    
+}
+
+#steps .colum{
+    width: 300px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#steps img{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+#steps p{
+    text-align: center;
+    color: #777;
+    font-size: 15px;
+}
+
+#steps h4{
+    text-align: center;
+    color: #444;
+    font-size: 25px;
+}
+
+/*Article*/
+#article{
+    background-color:#efefef ;
+    padding: 60px 0px;
+    overflow: hidden;
+}
+
+#article .colums{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+#article #article1{
+    background-image: url('images/article-image-1.jpg');
+}
+
+#article #article2{
+    background-image: url('images/article-image-2.jpg');
+}
+
+#article article{
+    width: 450px;
+    border-radius: 10px;    
+    float: left;
+    margin-right: 15px;
+}
+
+#article article .over{
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px 0 0 10px;
+    height: 100%;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+#article h4{
+    color: #444;
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#article p{
+    font-style: italic;
+    color:#777;
+    font-size: 14px;
+}
+
+#article button{
+    background-color: rgb(255, 115, 0);
+    font-size: 14px;
+    color: #fff;
+    padding: 6px 20px 6px 20px;
+    border-radius: 5px;
+    border-width: 0;
+}
+#article button:hover{
+    background-color: #02b8dd;
+}
+
+/*Contact*/
+#contact{
+    padding: 60px 0px;
+}
+
+#contact .box{
+    width: 940px;
+    margin: auto;
+    padding: 5px;
+}
+
+#contact h3{
+    text-align: center;
+    color: #444;
+    font-size: 35px;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid #02b8dd ;
+    width: 450px;
+    padding-bottom: 15px;
+}
+#contact p{
+    text-align: center;
+    color: #777;
+    font-size: 17px;
+}
+#contact form{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#contact label{
+    color:#777;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+#contact input[type="text"], #contact input[type="email"]{ 
+    font-size: 20px;
+    margin-right: 18px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#contact input[type="submit"]{
+    background-color: #02b8dd;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 12px;
+    color: #fff;
+    font-size: 20px;
+}
+#contact input[type="submit"]:hover{
+    background-color: #444;
+}
+
+
+/*Footer*/
+footer{
+    height: 250px;
+    background-color: #444;
+    text-align: center;
+}
+
+footer h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 20px;
+}
+footer p{
+    color:#fff;
+    margin-top: 10px;
+    font-size: 20px;
+}
+footer a{
+    color:#ddd;
+    text-decoration : none;
+}
+footer a:hover{
+    color: orange;
+}
